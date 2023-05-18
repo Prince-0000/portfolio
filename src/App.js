@@ -1,5 +1,5 @@
 import Analytics from "./components/Analytics";
-import Banner from "./components/Banner";
+// import Banner from "./components/Banner";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
