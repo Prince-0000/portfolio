@@ -1,19 +1,19 @@
-import Analytics from "./components/Analytics";
+import Analytics from "./components/About";
 // import Banner from "./components/Banner";
-import Cards from "./components/Cards";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import NewsLetter from "./components/NewsLetter";
+import Skills from "./components/Skills";
 
 function App() {
   return (
     <div className="text-black font-bold">
       <Navbar />
-      <Hero />
+      <Home />
       <Analytics />
-      <NewsLetter />
-      <Cards />
+      <Skills />
+      <Projects />
       {/* <Banner /> */}
       <Footer />
     </div>
