@@ -35,7 +35,7 @@ const Navbar = () => {
           <li className='p-4 border-b border-gray-600'>Projects</li>
           <li className='p-4 border-b border-gray-600'>Skills</li>
           <li className='p-4 border-b border-gray-600'>Contact</li>
-          <button onClick={handleDownload} className='bg-white my-3 mx-3 text-black w-[100px] h-10 rounded-md font-medium'><span className='flex relative top-3 flex-row pl-3 '><GrDocumentDownload size={20}/></span><span className='flex relative bottom-[11px] flex-row pl-8 mb-20'>Resume</span></button>
+          <button onClick={handleDownload} className='bg-white my-3 mx-3 text-black w-[100px] h-10 rounded-md font-medium'><span className='flex relative top-3 flex-row pl-2 '><GrDocumentDownload size={20}/></span><span className='flex relative bottom-[11px] flex-row pl-8 mb-20'>Resume</span></button>
         </ul>
       </div>
     </div>
