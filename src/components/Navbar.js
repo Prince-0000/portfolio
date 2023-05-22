@@ -7,10 +7,9 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav)
   }
-  const fileUrl = 'https://drive.google.com/file/d/1m9_KzkQCr9QYGvlafhsmlUJgto5U__LW/view?usp=sharing';
-  // const fileName = 'example.pdf';
+  // const fileUrl = 'https://drive.google.com/file/d/1m9_KzkQCr9QYGvlafhsmlUJgto5U__LW/view?usp=sharing';
   const handleDownload = () => {
-    window.open(fileUrl, '_blank');
+    // window.open(fileUrl, '_blank');
   };
   return (
     //sticky top-0 z-50 bg-black
@@ -19,8 +18,8 @@ const Navbar = () => {
       <ul className='hidden md:flex'>
         <li className='p-4'><a href='#home' className=''>Home</a></li>
         <li className='p-4'><a href='#about'>About</a></li>
-        <li className='p-4'><a href='#cards'></a>Projects</li>
-        <li className='p-4'><a href='#'>Skills</a></li>
+        <li className='p-4'><a href='#project'>Projects</a></li>
+        <li className='p-4'><a href='#skills'>Skills</a></li>
         <li className='p-4'><a href='#footer'>Contact</a></li>
           <button onClick={handleDownload} className='bg-white my-[5px] mx-3 text-black w-[105px] rounded-md font-medium'><span className='flex flex-row pl-3 '><GrDocumentDownload size={20}/></span><span className='flex absolute top-9 pl-9'>Resume</span></button>
       </ul>
