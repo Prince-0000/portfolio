@@ -14,7 +14,6 @@ function App() {
       <Analytics />
       <Skills />
       <Projects />
-      {/* <Banner /> */}
       <Footer />
     </div>
   );

@@ -4,7 +4,7 @@ const Card = ({image,title}) => {
   return (
     <div className="w-full shadow-xl flex flex-col p-4 my-5 rounded-lg hover:scale-105 duration-300">
       <img
-        className="w-[200px] mt-[-3rem] mx-auto bg-white"
+        className="w-[200px] mt-[-3rem] mx-auto bg-white" 
         src={image}
         alt="single"
       />

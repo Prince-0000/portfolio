@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card';
 import Ecart from '../assests/ecart.png';
 import Counterfiet from '../assests/counterfiet.png';
-// import Workout from '../assests/workout.png';
+import Workout from '../assests/workout.png';
 
 const Projects = () => {
   return (
@@ -13,7 +13,7 @@ const Projects = () => {
         <div className='max-w-[1000px] mx-auto grid md:grid-cols-3 gap-8'>
             <Card image={Ecart} title="Ecommerce App"/>
             <Card image={Counterfiet} title="Counterfiet"/>
-            <Card title="Workout App"/>
+            <Card image={Workout} title="Workout App"/>
             </div>
 
 

@@ -15,7 +15,7 @@ const Footer = () => {
     <div id='footer' className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
         <div>
             <h1 className='w-full text-3xl font-bold text-[#00df9a]'>PRINCE MEHTA</h1>
-            <p className='py-4 text-lg'>Follow me on social media handle -</p>
+            <p className='py-4 text-lg'>Follow me on social media handle</p>
             <div className='flex justify-between md:w-[75%] my-6'>
                 <a href='https://discord.com/channels/@me/946917246876405828' target='blank'><FaDiscord size={30}/></a>
                 <a href='https://www.instagram.com/prince_mehta01/' target='blank'><FaInstagram size={30}/></a>
