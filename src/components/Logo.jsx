@@ -1,7 +1,4 @@
 import React from 'react'
-import Single from '../assests/single.png';
-import Double from '../assests/double.png';
-import Triple from '../assests/triple.png';
 
 const Logo = ({image,text}) => {
   return (

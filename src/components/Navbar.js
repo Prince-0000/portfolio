@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { GrDocumentDownload } from "react-icons/gr";
+import {  toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -10,7 +12,9 @@ const Navbar = () => {
   // const fileUrl = 'https://drive.google.com/file/d/1m9_KzkQCr9QYGvlafhsmlUJgto5U__LW/view?usp=sharing';
   const handleDownload = () => {
     // window.open(fileUrl, '_blank');
-    alert("You don't have access")
+    toast.warning('You dont have access !', {
+      position: toast.POSITION.TOP_LEFT
+  });
   };
   return (
     //sticky top-0 z-50 bg-black
