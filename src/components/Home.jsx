@@ -1,6 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaDiscord, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from 'react-icons/si';
 
 const Hero = () => {
   const [text] = useTypewriter({
@@ -9,7 +10,7 @@ const Hero = () => {
     typeSpeed: 100,
     deleteSpeed: 100,
   });
-  const discordUrl = "https://discord.gg/8asyB8ZU";
+  const leetcodeUrl = "https://leetcode.com/Prince_0001/";
   const instagramUrl = "https://www.instagram.com/prince_mehta01/";
   const linkedinUrl = "https://www.linkedin.com/in/prince0000";
   const githubUrl = "https://github.com/Prince-0000";
@@ -38,8 +39,8 @@ const Hero = () => {
         </p>
         {/* <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button> */}
         <div className="flex justify-center items-center space-x-5 md:w-[75%] my-8">
-          <a href={discordUrl} target="blank">
-            <FaDiscord size={30} />
+          <a href={leetcodeUrl} target="blank">
+            <SiLeetcode size={30} />
           </a>
           <a href={instagramUrl} target="blank">
             <FaInstagram size={30} />

@@ -18,11 +18,12 @@ const About = () => {
           </h1>
           <p>
             {" "}
-            I am an experienced and dedicated web developer with a strong
-            passion for creating innovative and visually appealing websites.
-            With expertise in frontend and backend development, I have
-            successfully built numerous projects that combine functionality with
-            stunning designs.
+            I am a third year B.Tech CS student at Graphic Era Hill Univerity. I
+            am a skilled web developer with experience in both front-end and
+            back-end development. I am also a proficient coder with strong
+            problem-solving skills. I am dedicated and hardworking, with a
+            passion for software development. I am also flexible and adaptive,
+            able to quickly learn new technologies and adapt to new situations.
           </p>
           <p className="py-3">
             My portfolio showcases a diverse collection of projects that
@@ -43,3 +44,9 @@ const About = () => {
 };
 
 export default About;
+
+// I am a third year B.Tech CS student at Graphic Era Hill Univerity. I am a skilled web developer with experience in both front-end and back-end development. I am also a proficient coder with strong problem-solving skills. I am dedicated and hardworking, with a passion for software development. I am also flexible and adaptive, able to quickly learn new technologies and adapt to new situations.
+
+// In my previous projects, I have developed web applications using a variety of programming languages and technologies. I also compete in various hackathons
+
+// I am confident that I have the skills and experience to be a valuable asset to your team. I am eager to learn and take on new challenges.

@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import Ecart from "../assests/ecart.png";
+import Dukaan from '../assests/grocery.png'
 import Counterfiet from "../assests/counterfiet.png";
 import Workout from "../assests/workout.png";
 
@@ -14,10 +14,10 @@ const Projects = () => {
       <div className="mt-[-3rem] w-full bg-white py-[7rem] px-4">
         <div className="max-w-[1000px] mx-auto grid md:grid-cols-3 gap-8">
           <Card
-            image={Ecart}
-            title="Ecommerce App"
-            liveUrl="https://ecart-five.vercel.app/"
-            codeUrl="https://github.com/Prince-0000/ecommerce_app"
+            image={Dukaan}
+            title="Grocery App"
+            liveUrl="https://dukaann.vercel.app/"
+            codeUrl="https://github.com/Prince-0000/grocery_web_app"
           />
           <Card
             image={Counterfiet}
