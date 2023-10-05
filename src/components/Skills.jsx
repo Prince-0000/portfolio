@@ -5,8 +5,8 @@ import Java from "../assests/java1.png";
 import ReactIcon from "../assests/react.png";
 import NodeJs from "../assests/nodejs.png";
 import MongoDb from "../assests/mongodb.png";
-import Solidity from "../assests/solidity.png";
 import Tailwind from "../assests/tailwind.png";
+import Postgre from '../assests/postgre.png';
 
 const Skills = () => {
   return (
@@ -23,7 +23,7 @@ const Skills = () => {
         <Logo image={NodeJs} text="NodeJS" />
         <Logo image={MongoDb} text="MongoDB" />
         <Logo image={Tailwind} text="Tailwind CSS" />
-        <Logo image={Solidity} text="Solidity" />
+        <Logo image={Postgre} text="Postgre SQL" />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { GrDocumentDownload } from "react-icons/gr";
-import {  toast } from 'react-toastify';
+// import {  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -9,15 +9,14 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-  // const fileUrl = 'https://drive.google.com/file/d/1m9_KzkQCr9QYGvlafhsmlUJgto5U__LW/view?usp=sharing';
+  const fileUrl = 'https://drive.google.com/file/d/1GrNYHmOCBL-6n_08DEm5wURMj7UjvJE2/view?usp=sharing';
   const handleDownload = () => {
-    // window.open(fileUrl, '_blank');
-    toast.warning('You dont have access !', {
-      position: toast.POSITION.TOP_LEFT
-  });
+    window.open(fileUrl, '_blank');
+  //   toast.warning('You dont have access !', {
+  //     position: toast.POSITION.TOP_LEFT
+  // });
   };
   return (
-    //sticky top-0 z-50 bg-black
     <div className="text-white flex justify-between sticky top-0 z-50 bg-black items-center h-24 max-w-full mx-auto px-4">
       <h1>
         <a

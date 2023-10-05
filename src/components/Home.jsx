@@ -37,7 +37,6 @@ const Hero = () => {
           Crafting Seamless Experiences with MERN Magic: Empowering Innovation
           and Accelerating Web Development!
         </p>
-        {/* <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button> */}
         <div className="flex justify-center items-center space-x-5 md:w-[75%] my-8">
           <a href={leetcodeUrl} target="blank">
             <SiLeetcode size={30} />
